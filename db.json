@@ -1,0 +1,137 @@
+11{
+  "users": [
+    {
+      "username": "Testinand",
+      "email": "testinand@test.de",
+      "password": "123456",
+      "id": "c2dfc86e-53da-4404-8acd-7497853b8496",
+      "isAdmin": false
+    },
+    {
+      "username": "Poweradmin",
+      "email": "poweradmin@test.de",
+      "password": "admin",
+      "id": "c2dfc86e-53da-4404-8acd-fbe5f4fed1f3",
+      "isAdmin": true
+    },
+    {
+      "username": "JaneDoe",
+      "email": "janedoe@example.com",
+      "password": "password123",
+      "id": "d3f7a72c-4512-4d85-8cd4-9d4c2a6e3c5f",
+      "isAdmin": false
+    },
+    {
+      "username": "MaxMustermann",
+      "email": "max.mustermann@example.com",
+      "password": "maxsecure",
+      "id": "f7a2c4b3-5a8b-4f4e-9b9c-a9f8d7f2d8e2",
+      "isAdmin": false
+    },
+    {
+      "username": "CoderGuy",
+      "email": "coderguy@devmail.com",
+      "password": "cod3rul3s!",
+      "id": "b9c2a7e8-8f9b-4a2d-9c4b-5d8c7e6f8a1d",
+      "isAdmin": false
+    }
+  ],
+  "posts": [
+    {
+      "title": "Lorem Ipsum",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et ultricies turpis. Cras justo dolor, tincidunt imperdiet orci non, tincidunt malesuada metus. Vestibulum ante ipsum.",
+      "tags": ["Beispiel", "Lorem"],
+      "createdAt": 1667606819049,
+      "id": "h9a234b4-451s-9043-93c7-sxe5f4fed1f3",
+      "userId": "c2dfc86e-53da-4404-8acd-7497853b8496",
+      "upvotes": 12,
+      "downvotes": 1
+    },
+    {
+      "title": "JavaScript vs. Python: Ein Vergleich",
+      "text": "In diesem Beitrag vergleichen wir JavaScript und Python hinsichtlich ihrer Anwendung, Performance und Syntax. Beide Sprachen haben ihre Vor- und Nachteile, aber die Wahl hängt oft von den spezifischen Anforderungen des Projekts ab.",
+      "tags": ["JavaScript", "Python"],
+      "createdAt": 1670208812000,
+      "id": "a3d9b3b4-8a5e-4b4f-b9d4-3e5f4cde1b6c",
+      "userId": "b9c2a7e8-8f9b-4a2d-9c4b-5d8c7e6f8a1d",
+      "upvotes": 35,
+      "downvotes": 3
+    },
+    {
+      "title": "Wie man einen perfekten Espresso macht",
+      "text": "Der perfekte Espresso hängt von vielen Faktoren ab: der Bohne, dem Mahlgrad, der Wassermenge und der Extraktionszeit. In diesem Beitrag erkläre ich, wie man alle diese Variablen meistert, um den besten Espresso zu Hause zuzubereiten.",
+      "tags": ["Kaffee", "Espresso"],
+      "createdAt": 1673212412000,
+      "id": "e2b9c3d4-6e7f-4c8d-a8e9-2c6f3d4e1b5d",
+      "userId": "d3f7a72c-4512-4d85-8cd4-9d4c2a6e3c5f",
+      "upvotes": 42,
+      "downvotes": 0
+    },
+    {
+      "title": "Die besten Wanderrouten in den Alpen",
+      "text": "Die Alpen bieten einige der schönsten Wanderrouten Europas. In diesem Beitrag beschreibe ich einige meiner Lieblingsrouten, von leichten Spaziergängen bis hin zu anspruchsvollen Bergtouren.",
+      "tags": ["Wandern", "Alpen"],
+      "createdAt": 1676108412000,
+      "id": "f3d8a5e4-4e2f-4b8f-b9a2-7c8f4d3e1a6e",
+      "userId": "f7a2c4b3-5a8b-4f4e-9b9c-a9f8d7f2d8e2",
+      "upvotes": 25,
+      "downvotes": 2
+    }
+  ],
+  "comments": [
+    {
+      "text": "Gefällt mir richtig gut",
+      "createdAt": 1667606819055,
+      "id": "g4c804b4-160e-2043-33c7-gge5f4fed1f3",
+      "userId": "c2dfc86e-53da-4404-8acd-7497853b8496",
+      "postId": "h9a234b4-451s-9043-93c7-sxe5f4fed1f3",
+      "upvotes": 2,
+      "downvotes": 0
+    },
+    {
+      "text": "Danke dir",
+      "createdAt": 1667606819062,
+      "id": "d2s104b4-160e-2043-33c7-gge5f4fed1f3",
+      "userId": "c2dfc86e-53da-4404-8acd-fbe5f4fed1f3",
+      "postId": "h9a234b4-451s-9043-93c7-sxe5f4fed1f3",
+      "upvotes": 1,
+      "downvotes": 0
+    },
+    {
+      "text": "Super Artikel, hat mir bei der Entscheidung geholfen!",
+      "createdAt": 1670212812000,
+      "id": "c5d2f7a2-8b6d-4e9f-b3d5-6e7f2c4b5d9f",
+      "userId": "f7a2c4b3-5a8b-4f4e-9b9c-a9f8d7f2d8e2",
+      "postId": "a3d9b3b4-8a5e-4b4f-b9d4-3e5f4cde1b6c",
+      "upvotes": 5,
+      "downvotes": 0
+    },
+    {
+      "text": "Interessanter Vergleich, danke für die Infos!",
+      "createdAt": 1670216812000,
+      "id": "d4e8b6c7-9f5a-4e2f-b8c9-5d8f3e4b2a7d",
+      "userId": "b9c2a7e8-8f9b-4a2d-9c4b-5d8c7e6f8a1d",
+      "postId": "a3d9b3b4-8a5e-4b4f-b9d4-3e5f4cde1b6c",
+      "upvotes": 3,
+      "downvotes": 0
+    },
+    {
+      "text": "Tolle Tipps, mein Espresso schmeckt jetzt viel besser!",
+      "createdAt": 1673215412000,
+      "id": "f3c6b2d8-5a9e-4d2f-b9e8-2e7f3d5b1c4a",
+      "userId": "d3f7a72c-4512-4d85-8cd4-9d4c2a6e3c5f",
+      "postId": "e2b9c3d4-6e7f-4c8d-a8e9-2c6f3d4e1b5d",
+      "upvotes": 8,
+      "downvotes": 0
+    },
+    {
+      "text": "Kann die Routen nur empfehlen, einfach atemberaubend!",
+      "createdAt": 1676112412000,
+      "id": "a7f6d3b8-7e2f-4e3d-b9f8-2c7f4d5b3a8e",
+      "userId": "f7a2c4b3-5a8b-4f4e-9b9c-a9f8d7f2d8e2",
+      "postId": "f3d8a5e4-4e2f-4b8f-b9a2-7c8f4d3e1a6e",
+      "upvotes": 7,
+      "downvotes": 1
+    }
+  ]
+}
