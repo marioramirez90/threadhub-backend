@@ -34,13 +34,23 @@
       "password": "cod3rul3s!",
       "id": "b9c2a7e8-8f9b-4a2d-9c4b-5d8c7e6f8a1d",
       "isAdmin": false
+    },
+    {
+      "username": "gast",
+      "email": "gast@threadhub.de",
+      "password": "gast",
+      "id": "e5f6a7b8-1234-4567-89ab-cdef01234567",
+      "isAdmin": false
     }
   ],
   "posts": [
     {
       "title": "Lorem Ipsum",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et ultricies turpis. Cras justo dolor, tincidunt imperdiet orci non, tincidunt malesuada metus. Vestibulum ante ipsum.",
-      "tags": ["Beispiel", "Lorem"],
+      "tags": [
+        "Beispiel",
+        "Lorem"
+      ],
       "createdAt": 1667606819049,
       "id": "h9a234b4-451s-9043-93c7-sxe5f4fed1f3",
       "userId": "c2dfc86e-53da-4404-8acd-7497853b8496",
@@ -50,7 +60,10 @@
     {
       "title": "JavaScript vs. Python: Ein Vergleich",
       "text": "In diesem Beitrag vergleichen wir JavaScript und Python hinsichtlich ihrer Anwendung, Performance und Syntax. Beide Sprachen haben ihre Vor- und Nachteile, aber die Wahl hängt oft von den spezifischen Anforderungen des Projekts ab.",
-      "tags": ["JavaScript", "Python"],
+      "tags": [
+        "JavaScript",
+        "Python"
+      ],
       "createdAt": 1670208812000,
       "id": "a3d9b3b4-8a5e-4b4f-b9d4-3e5f4cde1b6c",
       "userId": "b9c2a7e8-8f9b-4a2d-9c4b-5d8c7e6f8a1d",
@@ -60,7 +73,10 @@
     {
       "title": "Wie man einen perfekten Espresso macht",
       "text": "Der perfekte Espresso hängt von vielen Faktoren ab: der Bohne, dem Mahlgrad, der Wassermenge und der Extraktionszeit. In diesem Beitrag erkläre ich, wie man alle diese Variablen meistert, um den besten Espresso zu Hause zuzubereiten.",
-      "tags": ["Kaffee", "Espresso"],
+      "tags": [
+        "Kaffee",
+        "Espresso"
+      ],
       "createdAt": 1673212412000,
       "id": "e2b9c3d4-6e7f-4c8d-a8e9-2c6f3d4e1b5d",
       "userId": "d3f7a72c-4512-4d85-8cd4-9d4c2a6e3c5f",
@@ -70,12 +86,275 @@
     {
       "title": "Die besten Wanderrouten in den Alpen",
       "text": "Die Alpen bieten einige der schönsten Wanderrouten Europas. In diesem Beitrag beschreibe ich einige meiner Lieblingsrouten, von leichten Spaziergängen bis hin zu anspruchsvollen Bergtouren.",
-      "tags": ["Wandern", "Alpen"],
+      "tags": [
+        "Wandern",
+        "Alpen"
+      ],
       "createdAt": 1676108412000,
       "id": "f3d8a5e4-4e2f-4b8f-b9a2-7c8f4d3e1a6e",
       "userId": "f7a2c4b3-5a8b-4f4e-9b9c-a9f8d7f2d8e2",
       "upvotes": 25,
       "downvotes": 2
+    },
+    {
+      "id": "a23f839d-d678-4954-acad-12d0df39c11d",
+      "title": "Willkommen auf ThreadHub! Tipps für neue Nutzer",
+      "text": "Schön, dass du hier bist! ThreadHub ist der Ort, um sich über Webentwicklung, Tech-Trends und Lifestyle auszutauschen. Schau dich um, erstelle eigene Threads und hinterlasse deinen Senf!",
+      "tags": [
+        "Community",
+        "Willkommen"
+      ],
+      "createdAt": 1789406742882,
+      "userId": "e5f6a7b8-1234-4567-89ab-cdef01234567",
+      "upvotes": 18,
+      "downvotes": 0
+    },
+    {
+      "id": "b9a05232-ca88-4cf8-92c5-6d7864545d4d",
+      "title": "Vue 3 Composition API vs. Options API: Was bevorzugt ihr?",
+      "text": "Mit Vue 3 haben wir die Composition API bekommen. Nutzt ihr lieber <script setup> mit ref() und reactive(), oder bleibt ihr bei der klassischen Options API mit data() und methods? Wo seht ihr die größten Vorteile?",
+      "tags": [
+        "Vue",
+        "JavaScript"
+      ],
+      "createdAt": 1789320342882,
+      "userId": "b9c2a7e8-8f9b-4a2d-9c4b-5d8c7e6f8a1d",
+      "upvotes": 45,
+      "downvotes": 2
+    },
+    {
+      "id": "53b2e14d-3fc9-49c4-bb47-17f7ae66352c",
+      "title": "Django REST Framework: Schneller Einstieg für Fullstack-Devs",
+      "text": "DRF macht das Erstellen von RESTful APIs mit Python extrem elegant. Durch Serializer und ViewSets spart man sich Unmengen an Boilerplate-Code. Wie handhabt ihr Authentifizierung am liebsten: Session, Token oder JWT?",
+      "tags": [
+        "Django",
+        "Python"
+      ],
+      "createdAt": 1789233942882,
+      "userId": "c2dfc86e-53da-4404-8acd-fbe5f4fed1f3",
+      "upvotes": 38,
+      "downvotes": 1
+    },
+    {
+      "id": "cbcacde8-7033-4958-b9be-84070139c5d2",
+      "title": "Welche VS Code Extensions sind für euch absolute Pflicht?",
+      "text": "Meine Top 3 aktuell: 1. Prettier für einheitliche Formatierung, 2. ESLint zum schnellen Aufspüren von Fehlern, 3. GitLens für perfekte Übersicht im Team. Welche Tools nutzt ihr täglich?",
+      "tags": [
+        "Tools",
+        "VSCode"
+      ],
+      "createdAt": 1789147542882,
+      "userId": "c2dfc86e-53da-4404-8acd-7497853b8496",
+      "upvotes": 29,
+      "downvotes": 0
+    },
+    {
+      "id": "3d7ea921-bae8-4958-8a7a-d4e5d1239a22",
+      "title": "Home Office Setup: Ergonomische Stühle & Stehtische im Test",
+      "text": "Nach 2 Jahren remote arbeiten kann ich sagen: Ein höhenverstellbarer Schreibtisch und ein guter Bürostuhl retten den Rücken. Hat jemand Empfehlungen für gute Monitormechaniken oder Fußstützen?",
+      "tags": [
+        "HomeOffice",
+        "Setup"
+      ],
+      "createdAt": 1789061142882,
+      "userId": "f7a2c4b3-5a8b-4f4e-9b9c-a9f8d7f2d8e2",
+      "upvotes": 32,
+      "downvotes": 1
+    },
+    {
+      "id": "bff44849-f0d0-45eb-b982-fdb7dc62a0d8",
+      "title": "Künstliche Intelligenz im Programmieralltag: Fluch oder Segen?",
+      "text": "Code-Assistenten wie Antigravity und Copilot beschleunigen die Routinearbeiten ungemein. Dennoch bleibt kritisches Denken und sauberes Code-Review unerlässlich. Wie stark nutzt ihr KI-Tools im Job?",
+      "tags": [
+        "KI",
+        "Zukunft"
+      ],
+      "createdAt": 1788974742882,
+      "userId": "b9c2a7e8-8f9b-4a2d-9c4b-5d8c7e6f8a1d",
+      "upvotes": 56,
+      "downvotes": 3
+    },
+    {
+      "id": "2cc73175-2205-49af-8932-216f4d1d4bcd",
+      "title": "Die besten mechanischen Tastaturen für Vielschreiber",
+      "text": "Lineare Red Switches, taktische Brown Switches oder klickende Blues? Ich bin vor kurzem auf Custom Keyboards umgestiegen (Gateron Yellows gelubed) und das Schreibgefühl ist ein Traum. Wer ist noch im Tastatur-Kaninchenbau?",
+      "tags": [
+        "Hardware",
+        "Tastaturen"
+      ],
+      "createdAt": 1788888342882,
+      "userId": "d3f7a72c-4512-4d85-8cd4-9d4c2a6e3c5f",
+      "upvotes": 24,
+      "downvotes": 2
+    },
+    {
+      "id": "fda4f561-9c40-4605-995b-73aca7792172",
+      "title": "CSS Grid vs. Flexbox: Wann verwendet ihr was?",
+      "text": "Eine Faustregel besagt: Flexbox für 1D-Layouts (entweder Zeile oder Spalte), CSS Grid für 2D-Layouts (Zeilen UND Spalten). Gibt es Fälle, in denen ihr Grid für einfache Komponenten bevorzugt?",
+      "tags": [
+        "CSS",
+        "Webdesign"
+      ],
+      "createdAt": 1788801942882,
+      "userId": "e5f6a7b8-1234-4567-89ab-cdef01234567",
+      "upvotes": 41,
+      "downvotes": 1
+    },
+    {
+      "id": "3034fcd5-edfa-4dd8-bfc5-ffa60af40693",
+      "title": "Schnelle & gesunde Rezepte für die Mittagspause",
+      "text": "Wer kennt es nicht: Wenig Zeit zwischen den Meetings. Mein Favorit ist Couscous mit gebratenem Gemüse und Feta – dauert nur 10 Minuten. Was sind eure Go-to Gerichte fürs Mittagessen?",
+      "tags": [
+        "Kochen",
+        "Lifestyle"
+      ],
+      "createdAt": 1788715542882,
+      "userId": "f7a2c4b3-5a8b-4f4e-9b9c-a9f8d7f2d8e2",
+      "upvotes": 19,
+      "downvotes": 0
+    },
+    {
+      "id": "5ee70562-e8d4-41a8-86cf-4c19e95d9ea2",
+      "title": "Clean Code: Warum sprechende Variablennamen so wichtig sind",
+      "text": "Code wird viel öfter gelesen als geschrieben. Ein vermeintlich kurzer Variablenname wie x oder temp rächt sich spätestens nach 6 Monaten. Schreibt ihr lieber etwas längere, selbsterklärende Namen?",
+      "tags": [
+        "CleanCode",
+        "BestPractices"
+      ],
+      "createdAt": 1788629142882,
+      "userId": "b9c2a7e8-8f9b-4a2d-9c4b-5d8c7e6f8a1d",
+      "upvotes": 50,
+      "downvotes": 1
+    },
+    {
+      "id": "e90c58b2-1598-42b0-bb5a-2ccb6de86a6e",
+      "title": "TypeScript in Frontend-Projekten: Lohnt sich der Overhead?",
+      "text": "Anfangs fühlt sich TS wie zusätzliche Schreibarbeit an, aber sobald Projekte wachsen und Interfaces klar definiert sind, möchte man das Autocomplete und die Typsicherheit bei Refactorings nie wieder missen.",
+      "tags": [
+        "TypeScript",
+        "Frontend"
+      ],
+      "createdAt": 1788542742882,
+      "userId": "d3f7a72c-4512-4d85-8cd4-9d4c2a6e3c5f",
+      "upvotes": 33,
+      "downvotes": 3
+    },
+    {
+      "id": "55f6c4e9-7ad4-447a-87d7-dc38654a01d7",
+      "title": "Bücher-Empfehlungen für Entwickler & Designer",
+      "text": "Drei Bücher, die meine Denkweise verändert haben: \"The Pragmatic Programmer\" von David Thomas, \"Don't Make Me Think\" von Steve Krug und \"Designing Data-Intensive Applications\" von Martin Kleppmann. Eure Favoriten?",
+      "tags": [
+        "Buecher",
+        "Bildung"
+      ],
+      "createdAt": 1788456342882,
+      "userId": "c2dfc86e-53da-4404-8acd-7497853b8496",
+      "upvotes": 27,
+      "downvotes": 0
+    },
+    {
+      "id": "c86533df-58dc-4241-bb42-dd8c51b7ccff",
+      "title": "Docker im Entwicklungsalltag: Local Development leicht gemacht",
+      "text": "Kein Problem mehr mit Umgebungskonflikten! Mit docker-compose eine PostgreSQL-Datenbank und Redis in Sekunden hochfahren ist einfach Gold wert. Nutzt ihr Docker auch für Frontend-Entwicklung?",
+      "tags": [
+        "Docker",
+        "DevOps"
+      ],
+      "createdAt": 1788369942882,
+      "userId": "c2dfc86e-53da-4404-8acd-fbe5f4fed1f3",
+      "upvotes": 48,
+      "downvotes": 2
+    },
+    {
+      "id": "55c78a77-4b63-497d-8289-3652bb6cf0e1",
+      "title": "Tipps gegen Prokrastination: Wie bleibt ihr fokussiert?",
+      "text": "Pomodoro-Technik (25 Minuten Fokus, 5 Minuten Pause) und Handy in einen anderen Raum legen wirken bei mir Wunder. Wie strukturiert ihr euren Tag bei großen Projekten?",
+      "tags": [
+        "Produktivitaet",
+        "Fokus"
+      ],
+      "createdAt": 1788283542882,
+      "userId": "e5f6a7b8-1234-4567-89ab-cdef01234567",
+      "upvotes": 22,
+      "downvotes": 1
+    },
+    {
+      "id": "1135990f-d47c-4d41-a8b0-a1e9390e302f",
+      "title": "State Management in 2026: Pinia, Redux oder Context?",
+      "text": "In Vue hat Pinia Vuex komplett abgelöst und fühlt sich wunderbar leichtgewichtig an. In React gibt es Zustand und Redux Toolkit. Welches State-Management-Konzept gefällt euch architektonisch am besten?",
+      "tags": [
+        "Pinia",
+        "StateManagement"
+      ],
+      "createdAt": 1788197142882,
+      "userId": "b9c2a7e8-8f9b-4a2d-9c4b-5d8c7e6f8a1d",
+      "upvotes": 31,
+      "downvotes": 0
+    },
+    {
+      "id": "54e8f722-0927-48a8-9c81-3d4495146c46",
+      "title": "Web-Performance: Warum Core Web Vitals entscheidend sind",
+      "text": "LCP, FID und CLS beeinflussen nicht nur das Google-Ranking, sondern direkt die Absprungrate. Durch Bildoptimierung (WebP/AVIF) und Lazy Loading konnten wir die Ladezeit um 60% senken.",
+      "tags": [
+        "Performance",
+        "SEO"
+      ],
+      "createdAt": 1788110742882,
+      "userId": "d3f7a72c-4512-4d85-8cd4-9d4c2a6e3c5f",
+      "upvotes": 36,
+      "downvotes": 0
+    },
+    {
+      "id": "51939c07-1d07-4dbe-8778-3bfe12651ce3",
+      "title": "Welche Musik hört ihr beim Programmieren?",
+      "text": "Lofi Hip Hop, Synthwave, Soundtracks von Videospielen (z. B. Skyrim, Doom oder Cyberpunk) oder absolute Stille mit Noise-Cancelling-Kopfhörern? Teilt gerne eure Playlists!",
+      "tags": [
+        "Musik",
+        "Community"
+      ],
+      "createdAt": 1788024342882,
+      "userId": "f7a2c4b3-5a8b-4f4e-9b9c-a9f8d7f2d8e2",
+      "upvotes": 28,
+      "downvotes": 1
+    },
+    {
+      "id": "f29eafe3-073a-4abf-b26d-6dcad4253b40",
+      "title": "Git Tricks: Rebase vs. Merge und nützliche Aliases",
+      "text": "Ein sauberer Commit-Verlauf mit git rebase interactive macht Reviews so viel angenehmer. Habt ihr nützliche Git-Aliases in eurer .gitconfig, ohne die ihr nicht mehr leben könnt?",
+      "tags": [
+        "Git",
+        "Tipps"
+      ],
+      "createdAt": 1787937942882,
+      "userId": "c2dfc86e-53da-4404-8acd-7497853b8496",
+      "upvotes": 43,
+      "downvotes": 1
+    },
+    {
+      "id": "f48540ee-2b80-49ed-9d48-7630697da170",
+      "title": "Dark Mode Design: Nicht einfach reines Schwarz verwenden!",
+      "text": "Ein häufiger Fehler bei Dark Modes ist die Verwendung von #000000 als Hintergrund. Dunkle Grautöne (z. B. #121212) wirken sanfter für die Augen und erlauben feine Schattenabstufungen für Ebenen.",
+      "tags": [
+        "UIUX",
+        "DarkMode"
+      ],
+      "createdAt": 1787851542882,
+      "userId": "e5f6a7b8-1234-4567-89ab-cdef01234567",
+      "upvotes": 52,
+      "downvotes": 0
+    },
+    {
+      "id": "0863b21d-66f3-4e03-bd2a-9e52d5482295",
+      "title": "Die besten Open-Source-Projekte zum Mitmachen für Einsteiger",
+      "text": "Wer erste Open-Source-Erfahrung sammeln möchte: Sucht auf GitHub nach dem Label \"good first issue\". Viele Frameworks und Dokumentationen freuen sich riesig über Beiträge!",
+      "tags": [
+        "OpenSource",
+        "GitHub"
+      ],
+      "createdAt": 1787765142882,
+      "userId": "c2dfc86e-53da-4404-8acd-fbe5f4fed1f3",
+      "upvotes": 39,
+      "downvotes": 0
     }
   ],
   "comments": [
@@ -132,6 +411,114 @@
       "postId": "f3d8a5e4-4e2f-4b8f-b9a2-7c8f4d3e1a6e",
       "upvotes": 7,
       "downvotes": 1
+    },
+    {
+      "id": "296d14f6-a325-493a-bc03-d2ae694b61c2",
+      "postId": "a23f839d-d678-4954-acad-12d0df39c11d",
+      "userId": "d3f7a72c-4512-4d85-8cd4-9d4c2a6e3c5f",
+      "text": "Guter Punkt! Genau so mache ich das auch.",
+      "createdAt": 1789410342882,
+      "upvotes": 0,
+      "downvotes": 0
+    },
+    {
+      "id": "9edd35d8-be3e-4baf-b773-05c1331ff928",
+      "postId": "b9a05232-ca88-4cf8-92c5-6d7864545d4d",
+      "userId": "c2dfc86e-53da-4404-8acd-7497853b8496",
+      "text": "Danke fürs Teilen, sehr hilfreich!",
+      "createdAt": 1789323942882,
+      "upvotes": 2,
+      "downvotes": 0
+    },
+    {
+      "id": "6d41c996-29c3-4e65-822f-df1d99ab4f70",
+      "postId": "53b2e14d-3fc9-49c4-bb47-17f7ae66352c",
+      "userId": "b9c2a7e8-8f9b-4a2d-9c4b-5d8c7e6f8a1d",
+      "text": "Finde ich spannend, werde ich definitiv ausprobieren.",
+      "createdAt": 1789237542882,
+      "upvotes": 4,
+      "downvotes": 0
+    },
+    {
+      "id": "10dbbdda-7a4e-4696-8ef3-4500b369900f",
+      "postId": "cbcacde8-7033-4958-b9be-84070139c5d2",
+      "userId": "e5f6a7b8-1234-4567-89ab-cdef01234567",
+      "text": "Absolut einverstanden!",
+      "createdAt": 1789151142882,
+      "upvotes": 6,
+      "downvotes": 0
+    },
+    {
+      "id": "468ac98c-d50f-43c4-8193-51b8af77c69b",
+      "postId": "3d7ea921-bae8-4958-8a7a-d4e5d1239a22",
+      "userId": "f7a2c4b3-5a8b-4f4e-9b9c-a9f8d7f2d8e2",
+      "text": "Top Beitrag, Daumen hoch!",
+      "createdAt": 1789064742882,
+      "upvotes": 1,
+      "downvotes": 0
+    },
+    {
+      "id": "14d3cd26-9c9d-460c-ba50-2323497cdf4f",
+      "postId": "bff44849-f0d0-45eb-b982-fdb7dc62a0d8",
+      "userId": "d3f7a72c-4512-4d85-8cd4-9d4c2a6e3c5f",
+      "text": "Guter Punkt! Genau so mache ich das auch.",
+      "createdAt": 1788978342882,
+      "upvotes": 3,
+      "downvotes": 0
+    },
+    {
+      "id": "59722082-8521-4fe3-9b2c-c6a1a4a870b9",
+      "postId": "2cc73175-2205-49af-8932-216f4d1d4bcd",
+      "userId": "c2dfc86e-53da-4404-8acd-7497853b8496",
+      "text": "Danke fürs Teilen, sehr hilfreich!",
+      "createdAt": 1788891942882,
+      "upvotes": 5,
+      "downvotes": 0
+    },
+    {
+      "id": "bdb8c4c9-a53d-4121-a7af-4ce4c4669d0d",
+      "postId": "fda4f561-9c40-4605-995b-73aca7792172",
+      "userId": "b9c2a7e8-8f9b-4a2d-9c4b-5d8c7e6f8a1d",
+      "text": "Finde ich spannend, werde ich definitiv ausprobieren.",
+      "createdAt": 1788805542882,
+      "upvotes": 0,
+      "downvotes": 0
+    },
+    {
+      "id": "5b8da085-d3c4-4ab0-8749-4223000b02b1",
+      "postId": "3034fcd5-edfa-4dd8-bfc5-ffa60af40693",
+      "userId": "e5f6a7b8-1234-4567-89ab-cdef01234567",
+      "text": "Absolut einverstanden!",
+      "createdAt": 1788719142882,
+      "upvotes": 2,
+      "downvotes": 0
+    },
+    {
+      "id": "b7c8dd65-30c4-46f7-b87c-4dcbe43b8643",
+      "postId": "5ee70562-e8d4-41a8-86cf-4c19e95d9ea2",
+      "userId": "f7a2c4b3-5a8b-4f4e-9b9c-a9f8d7f2d8e2",
+      "text": "Top Beitrag, Daumen hoch!",
+      "createdAt": 1788632742882,
+      "upvotes": 4,
+      "downvotes": 0
+    },
+    {
+      "id": "2fd5b479-a7ff-47d6-a0c9-c2987b740d88",
+      "postId": "e90c58b2-1598-42b0-bb5a-2ccb6de86a6e",
+      "userId": "d3f7a72c-4512-4d85-8cd4-9d4c2a6e3c5f",
+      "text": "Guter Punkt! Genau so mache ich das auch.",
+      "createdAt": 1788546342882,
+      "upvotes": 6,
+      "downvotes": 0
+    },
+    {
+      "id": "68696903-cbf0-4b80-8c1f-7dc21ed0f869",
+      "postId": "55f6c4e9-7ad4-447a-87d7-dc38654a01d7",
+      "userId": "c2dfc86e-53da-4404-8acd-7497853b8496",
+      "text": "Danke fürs Teilen, sehr hilfreich!",
+      "createdAt": 1788459942882,
+      "upvotes": 1,
+      "downvotes": 0
     }
   ]
 }
