@@ -99,21 +99,38 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # CORS Settings
 CORS_ALLOWED_ORIGINS = [
     "https://creative-licorice-2d34b3.netlify.app",
+    "https://marioramirez.de",
     "http://localhost:3000",
     "http://127.0.0.1:3000",
     "http://localhost:5173",
     "http://127.0.0.1:5173",
 ]
+
+configured_frontend_origins = os.environ.get('CORS_ALLOWED_ORIGINS', '')
+if configured_frontend_origins:
+    CORS_ALLOWED_ORIGINS.extend(
+        origin.strip()
+        for origin in configured_frontend_origins.split(',')
+        if origin.strip()
+    )
+
+frontend_url = os.environ.get('FRONTEND_URL')
+if frontend_url:
+    CORS_ALLOWED_ORIGINS.append(frontend_url.rstrip('/'))
+
 CORS_ALLOW_CREDENTIALS = True
 
 # CSRF Settings
 CSRF_TRUSTED_ORIGINS = [
     "https://creative-licorice-2d34b3.netlify.app",
+    "https://marioramirez.de",
     "http://localhost:3000",
     "http://127.0.0.1:3000",
     "http://localhost:5173",
     "http://127.0.0.1:5173",
 ]
+if frontend_url:
+    CSRF_TRUSTED_ORIGINS.append(frontend_url.rstrip('/'))
 
 # DRF Settings
 REST_FRAMEWORK = {

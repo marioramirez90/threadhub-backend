@@ -48,6 +48,13 @@ Unter http://localhost:3000/admin/ kannst du alle Daten bequem im Browser verwal
 
 ---
 
+## Deployment
+
+Set `FRONTEND_URL` in the Render environment to the exact deployed frontend origin, for example `https://your-app.netlify.app`.
+For multiple frontend origins, use the comma-separated `CORS_ALLOWED_ORIGINS` variable instead. Redeploy the service after changing these variables.
+
+---
+
 ## Nützliche Befehle
 
 ### Daten neu initialisieren (Seeden)
